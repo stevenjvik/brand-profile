@@ -1,6 +1,6 @@
 # Steve Vik
 
-Cybersecurity engineer with 5+ years across SOC operations, incident response, and compliance. I also build things — a self-hosted homelab running 11 LXC containers, autonomous AI agents, and full-stack tools I use every week.
+Cybersecurity engineer with 5+ years across SOC operations, incident response, and compliance. I also build things — I run the SJVIK NOC, a VLAN-segmented 3-node Proxmox operations center with 15 LXC services, Wazuh SIEM, autonomous AI agents, and Infrastructure as Code.
 
 Available for cybersecurity, DevOps, and infrastructure roles — remote or Seattle metro.
 
@@ -8,9 +8,9 @@ Available for cybersecurity, DevOps, and infrastructure roles — remote or Seat
 
 ## What I'm Working On
 
-- **[SJVIK Labs](https://sjvik-labs.stevenjvik.tech)** — security research, homelab automation, and digital guides
+- **[SJVIK Labs](https://sjvik-labs.stevenjvik.tech)** — security research, infrastructure automation, and digital guides
+- **SJVIK NOC** — 3-node Proxmox cluster, 15 LXC containers, 4 VLANs, HA failover, Wazuh SIEM, Ansible IaC, Grafana monitoring, tested DR
 - **SOC Lab** — public IR playbooks, Sigma detection rules, and hardening baselines
-- **Homelab** — 3-node Proxmox cluster, 11 LXC containers, Grafana/Prometheus monitoring, restic backups to 3 repos
 - B.S. Cybersecurity & Information Assurance at WGU (returning summer 2026)
 
 ## Projects
@@ -26,7 +26,7 @@ Available for cybersecurity, DevOps, and infrastructure roles — remote or Seat
 ## Stack
 
 **Security:** Splunk, SolarWinds, CrowdStrike Falcon, Defender for Endpoint, Sentinel, Nessus, Wireshark
-**Infrastructure:** Proxmox VE, LXC, Linux, Traefik, Grafana, Prometheus, restic, PM2
+**Infrastructure:** Proxmox VE, LXC, Linux, VLANs (802.1Q), Traefik, Grafana, Prometheus, Wazuh, Vaultwarden, restic, PM2
 **Dev:** TypeScript, React, Node.js, Express, SQLite, Vite, Tailwind
 **Scripting:** Python, PowerShell, Bash, SQL, Splunk SPL
 **Automation:** Ansible, Terraform, CI/CD, Claude Code
